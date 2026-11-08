@@ -1,0 +1,65 @@
+// Avatar Maker BD — UI strings (EN + বাংলা).
+(function (root) {
+  'use strict';
+  var STRINGS = {
+    en: {
+      appTitle: 'Avatar Maker BD',
+      tagline: 'Design your own avatar — no sign-up, no uploads, fully offline.',
+      preview: 'Preview',
+      customize: 'Customise',
+      face: 'Face shape', skin: 'Skin tone', hairStyle: 'Hair style', hairColor: 'Hair colour',
+      eyes: 'Eyes', mouth: 'Expression', glasses: 'Glasses', accessory: 'Accessory',
+      shirt: 'Shirt', bg: 'Background',
+      random: '🎲 Random', reset: '↺ Reset',
+      nameLabel: 'Avatar name', namePh: 'e.g. Fahad',
+      save: '💾 Save to gallery',
+      downloadPng: '⬇ PNG', downloadSvg: '⬇ SVG', copySvg: '⧉ Copy SVG',
+      gallery: 'My avatars', galleryEmpty: 'No saved avatars yet — design one and tap Save.',
+      galleryFull: 'Gallery is full (12 max). Delete one to save another.',
+      load: 'Load', del: 'Delete',
+      saved: 'Saved to gallery!', loaded: 'Loaded!', deleted: 'Deleted.',
+      copied: 'SVG code copied!', copyFail: 'Copy failed — select the code manually.',
+      nameEmpty: 'Give your avatar a name first.',
+      nameLong: 'Name must be 30 characters or less.',
+      nameDup: 'That name is already saved.',
+      downloadReady: 'Download started.',
+      exportBtn: 'Export gallery', importBtn: 'Import gallery', eraseBtn: 'Erase all',
+      eraseConfirm: 'Type DELETE to erase the whole gallery.',
+      eraseDone: 'Gallery erased.',
+      importOk: 'Gallery imported.', importBad: 'That file is not a valid Avatar Maker gallery.',
+      disclaimer: 'Your avatars stay in this browser only. PNG / SVG downloads are yours to use anywhere — profile pictures, stickers, class projects.',
+      combos: 'combinations',
+      savedCount: 'saved'
+    },
+    bn: {
+      appTitle: 'অ্যাভাটার মেকার বিডি',
+      tagline: 'নিজের অ্যাভাটার বানান — সাইন-আপ নেই, আপলোড নেই, সম্পূর্ণ অফলাইন।',
+      preview: 'প্রিভিউ',
+      customize: 'সাজান',
+      face: 'মুখের আকৃতি', skin: 'ত্বকের রং', hairStyle: 'চুলের স্টাইল', hairColor: 'চুলের রং',
+      eyes: 'চোখ', mouth: 'মুখের ভাব', glasses: 'চশমা', accessory: 'অতিরিক্ত সাজ',
+      shirt: 'শার্ট', bg: 'পটভূমি',
+      random: '🎲 এলোমেলো', reset: '↺ রিসেট',
+      nameLabel: 'অ্যাভাটারের নাম', namePh: 'যেমন: ফাহাদ',
+      save: '💾 গ্যালারিতে সংরক্ষণ',
+      downloadPng: '⬇ PNG', downloadSvg: '⬇ SVG', copySvg: '⧉ SVG কপি',
+      gallery: 'আমার অ্যাভাটার', galleryEmpty: 'এখনো কোনো অ্যাভাটার সংরক্ষণ করা হয়নি — একটি বানিয়ে সংরক্ষণ করুন।',
+      galleryFull: 'গ্যালারি পূর্ণ (সর্বোচ্চ ১২টি)। আরেকটি সংরক্ষণ করতে একটি মুছুন।',
+      load: 'লোড', del: 'মুছুন',
+      saved: 'গ্যালারিতে সংরক্ষণ হয়েছে!', loaded: 'লোড হয়েছে!', deleted: 'মোছা হয়েছে।',
+      copied: 'SVG কোড কপি হয়েছে!', copyFail: 'কপি হয়নি — কোডটি নিজে সিলেক্ট করুন।',
+      nameEmpty: 'প্রথমে অ্যাভাটারের একটি নাম দিন।',
+      nameLong: 'নাম সর্বোচ্চ ৩০ অক্ষরের হতে হবে।',
+      nameDup: 'এই নামে ইতিমধ্যে সংরক্ষণ আছে।',
+      downloadReady: 'ডাউনলোড শুরু হয়েছে।',
+      exportBtn: 'গ্যালারি এক্সপোর্ট', importBtn: 'গ্যালারি ইমপোর্ট', eraseBtn: 'সব মুছুন',
+      eraseConfirm: 'পুরো গ্যালারি মুছতে DELETE লিখুন।',
+      eraseDone: 'গ্যালারি মোছা হয়েছে।',
+      importOk: 'গ্যালারি ইমপোর্ট হয়েছে।', importBad: 'এই ফাইলটি বৈধ অ্যাভাটার মেকার গ্যালারি নয়।',
+      disclaimer: 'আপনার অ্যাভাটার শুধু এই ব্রাউজারেই থাকে। PNG / SVG ডাউনলোড যেকোনো জায়গায় ব্যবহার করতে পারেন — প্রোফাইল ছবি, স্টিকার, ক্লাস প্রজেক্ট।',
+      combos: 'সংমিশ্রণ',
+      savedCount: 'সংরক্ষিত'
+    }
+  };
+  root.AvatarI18n = { STRINGS: STRINGS };
+})(typeof window !== 'undefined' ? window : globalThis);
